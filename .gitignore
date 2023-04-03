@@ -108,6 +108,7 @@ data/
 data
 job
 job/
+log/*
 .vscode
 .idea
 .DS_Store

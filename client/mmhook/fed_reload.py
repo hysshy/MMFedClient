@@ -28,6 +28,8 @@ class FedReload(Hook):
             if os.path.exists(reload_model_file):
                 assert is_file_transfer_complete(reload_model_file, 10)
                 runner.load_checkpoint(reload_model_file)
+                if os.path.exists(runner.work_dir+'/epoch_'+str(runner.epoch)+'.pth'):
+                    os.remove(runner.work_dir+'/epoch_'+str(runner.epoch)+'.pth')
                 break
             time.sleep(5)
 
