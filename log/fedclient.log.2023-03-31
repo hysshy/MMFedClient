@@ -1,0 +1,663 @@
+2023-03-31 10:27:55,215 - /home/chase/PycharmProjects/MMFedClient/client/preClientTrain.py[line:17] - INFO: {'mmdet': 'mmdet'}
+2023-03-31 10:31:30,966 - /home/chase/PycharmProjects/MMFedClient/client/preClientTrain.py[line:16] - INFO: 检查环境
+2023-03-31 10:33:19,981 - /home/chase/PycharmProjects/MMFedClient/client/preClientTrain.py[line:16] - INFO: 开始检查环境
+2023-03-31 10:33:19,982 - /home/chase/PycharmProjects/MMFedClient/client/preClientTrain.py[line:23] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 10:33:55,554 - /home/chase/PycharmProjects/MMFedClient/client/preClientTrain.py[line:16] - INFO: 开始检查环境
+2023-03-31 10:33:55,554 - /home/chase/PycharmProjects/MMFedClient/client/preClientTrain.py[line:23] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 14:18:24,916 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 14:18:24,916 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 14:18:42,821 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 14:18:42,822 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 14:18:50,037 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 14:18:50,037 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 14:21:32,524 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 14:21:32,525 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 14:28:57,878 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 14:28:57,879 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 14:29:23,963 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 14:29:23,963 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 14:29:23,966 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:27] - INFO: 检查数据集
+2023-03-31 14:29:59,725 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 14:29:59,726 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 14:29:59,730 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:27] - INFO: 检查数据集
+2023-03-31 14:33:05,587 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 14:33:05,588 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 14:33:05,592 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:27] - INFO: 检查数据集
+2023-03-31 14:35:23,771 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 14:35:23,772 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 14:37:46,513 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 14:37:46,514 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 14:37:47,564 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:27] - INFO: 检查数据集
+2023-03-31 14:38:19,266 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 14:38:19,267 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 14:38:20,310 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:27] - INFO: 检查数据集
+2023-03-31 14:39:36,619 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 14:39:36,620 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 14:39:36,623 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:27] - INFO: 检查数据集
+2023-03-31 14:39:36,624 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:34] - INFO: {'/home/chase/shy/dataset/lunwen2000_train_res_2080.json': True, '/home/chase/shy/dataset/lunwen2000_test_res_2080.json': True}
+2023-03-31 14:42:03,397 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 14:42:03,398 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 14:42:03,401 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:27] - INFO: 检查数据集
+2023-03-31 14:42:03,402 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:34] - INFO: {'/home/chase/shy/dataset/lunwen2000_train_res_2080.json': True, '/home/chase/shy/dataset/lunwen2000_test_res_2080.json': True}
+2023-03-31 14:42:14,203 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 14:42:14,203 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 14:42:14,205 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:27] - INFO: 检查数据集
+2023-03-31 14:42:14,206 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:34] - INFO: {'/home/chase/shy/dataset/lunwen2000_train_res_2080.json': True, '/home/chase/shy/dataset/lunwen2000_test_res_2080.json': True}
+2023-03-31 14:42:31,827 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 14:42:31,827 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 14:42:31,829 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:27] - INFO: 检查数据集
+2023-03-31 14:42:31,830 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:34] - INFO: {'/home/chase/shy/dataset/lunwen2000_train_res_2080.json': True, '/home/chase/shy/dataset/lunwen2000_test_res_2080.json': True}
+2023-03-31 14:42:52,643 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 14:42:52,644 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 14:42:52,646 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:27] - INFO: 检查数据集
+2023-03-31 14:42:52,647 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:34] - INFO: {'/home/chase/shy/dataset/lunwen2000_train_res_2080.json': True, '/home/chase/shy/dataset/lunwen2000_test_res_2080.json': True}
+2023-03-31 18:10:21,686 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 18:10:21,686 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 18:10:21,689 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:27] - INFO: 检查数据集
+2023-03-31 18:10:21,690 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:34] - INFO: {'/home/chase/shy/dataset/lunwen2000_train_res_2080.json': True, '/home/chase/shy/dataset/lunwen2000_test_res_2080.json': True}
+2023-03-31 18:10:21,693 - /home/chase/PycharmProjects/MMFedClient/client/client_train.py[line:34] - INFO: init_trainer
+2023-03-31 18:10:22,000 - /home/chase/PycharmProjects/MMFedClient/client/client_train.py[line:55] - INFO: Environment info:
+------------------------------------------------------------
+sys.platform: linux
+Python: 3.6.9 (default, Jan 26 2021, 15:33:00) [GCC 8.4.0]
+CUDA available: True
+GPU 0,1: GeForce RTX 2080
+CUDA_HOME: /usr/local/cuda
+NVCC: Cuda compilation tools, release 10.2, V10.2.8
+GCC: x86_64-linux-gnu-gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+PyTorch: 1.7.0
+PyTorch compiling details: PyTorch built with:
+  - GCC 7.3
+  - C++ Version: 201402
+  - Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191122 for Intel(R) 64 architecture applications
+  - Intel(R) MKL-DNN v1.6.0 (Git Hash 5ef631a030a6f73131c77892041042805a06064f)
+  - OpenMP 201511 (a.k.a. OpenMP 4.5)
+  - NNPACK is enabled
+  - CPU capability usage: AVX2
+  - CUDA Runtime 10.2
+  - NVCC architecture flags: -gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75
+  - CuDNN 7.6.5
+  - Magma 2.5.2
+  - Build settings: BLAS=MKL, BUILD_TYPE=Release, CXX_FLAGS= -Wno-deprecated -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -fopenmp -DNDEBUG -DUSE_FBGEMM -DUSE_QNNPACK -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DUSE_VULKAN_WRAPPER -O2 -fPIC -Wno-narrowing -Wall -Wextra -Werror=return-type -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wno-unused-result -Wno-unused-local-typedefs -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-stringop-overflow -Wno-psabi -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, USE_CUDA=ON, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=ON, USE_NNPACK=ON, USE_OPENMP=ON, 
+
+TorchVision: 0.8.0
+OpenCV: 4.5.5
+MMCV: 1.7.0
+MMCV Compiler: GCC 7.5
+MMCV CUDA Compiler: 10.2
+MMDetection: 2.25.3+
+------------------------------------------------------------
+
+2023-03-31 18:10:22,583 - /home/chase/PycharmProjects/MMFedClient/client/client_train.py[line:59] - INFO: Config:
+model = dict(
+    type='TwoStageDetector_SPJC_FaceQt_FaceKp',
+    backbone=dict(
+        type='ResNet',
+        depth=50,
+        num_stages=4,
+        out_indices=[0, 1, 2, 3],
+        frozen_stages=1,
+        norm_cfg=dict(type='BN', requires_grad=True),
+        norm_eval=True,
+        style='pytorch',
+        init_cfg=dict(type='Pretrained', checkpoint='torchvision://resnet50')),
+    neck=dict(
+        type='FPN',
+        in_channels=[256, 512, 1024, 2048],
+        out_channels=256,
+        num_outs=5),
+    rpn_head=dict(
+        type='RPNHead',
+        in_channels=256,
+        feat_channels=256,
+        anchor_generator=dict(
+            type='AnchorGenerator',
+            scales=[8],
+            ratios=[0.5, 1.0, 2.0],
+            strides=[4, 8, 16, 32, 64]),
+        bbox_coder=dict(
+            type='DeltaXYWHBBoxCoder',
+            target_means=[0.0, 0.0, 0.0, 0.0],
+            target_stds=[1.0, 1.0, 1.0, 1.0]),
+        loss_cls=dict(
+            type='CrossEntropyLoss', use_sigmoid=True, loss_weight=1.0),
+        loss_bbox=dict(type='L1Loss', loss_weight=1.0)),
+    roi_head=[
+        dict(
+            type='StandardRoIHead',
+            bbox_roi_extractor=dict(
+                type='SingleRoIExtractor',
+                roi_layer=dict(
+                    type='RoIAlign', output_size=7, sampling_ratio=0),
+                out_channels=256,
+                featmap_strides=[4, 8, 16, 32]),
+            bbox_head=dict(
+                type='Shared2FCBBoxHead',
+                in_channels=256,
+                fc_out_channels=1024,
+                roi_feat_size=7,
+                num_classes=9,
+                bbox_coder=dict(
+                    type='DeltaXYWHBBoxCoder',
+                    target_means=[0.0, 0.0, 0.0, 0.0],
+                    target_stds=[0.1, 0.1, 0.2, 0.2]),
+                reg_class_agnostic=False,
+                loss_cls=dict(
+                    type='CrossEntropyLoss',
+                    use_sigmoid=False,
+                    loss_weight=1.0),
+                loss_bbox=dict(type='L1Loss', loss_weight=1.0))),
+        dict(
+            type='StandardRoIHead',
+            bbox_roi_extractor=dict(
+                type='SingleRoIExtractor',
+                roi_layer=dict(type='RoIAlign', out_size=7, sample_num=0),
+                out_channels=256,
+                featmap_strides=[4, 8, 16, 32]),
+            bbox_head=dict(
+                type='Shared2FCBBoxHead',
+                with_reg=False,
+                with_background=False,
+                in_channels=256,
+                fc_out_channels=512,
+                roi_feat_size=7,
+                num_classes=11,
+                bbox_coder=dict(
+                    type='DeltaXYWHBBoxCoder',
+                    target_means=[0.0, 0.0, 0.0, 0.0],
+                    target_stds=[0.1, 0.1, 0.2, 0.2]),
+                reg_class_agnostic=False,
+                loss_cls=dict(
+                    type='CrossEntropyLoss',
+                    use_sigmoid=False,
+                    loss_weight=1.0))),
+        dict(
+            type='StandardRoIHead',
+            bbox_roi_extractor=dict(
+                type='SingleRoIExtractor',
+                roi_layer=dict(type='RoIAlign', out_size=7, sample_num=0),
+                out_channels=256,
+                featmap_strides=[4, 8, 16, 32]),
+            bbox_head=dict(
+                type='Shared2FCBBoxHead',
+                num_shared_convs=4,
+                num_shared_fs=0,
+                with_cls=False,
+                with_reg=False,
+                in_channels=256,
+                fc_out_channels=1024,
+                roi_feat_size=7,
+                num_classes=1,
+                bbox_coder=dict(
+                    type='DeltaXYWHBBoxCoder',
+                    target_means=[0.0, 0.0, 0.0, 0.0],
+                    target_stds=[0.1, 0.1, 0.2, 0.2]),
+                loss_bbox=dict(type='SmoothL1Loss', beta=1.0,
+                               loss_weight=1.0))),
+        dict(
+            type='StandardRoIHead',
+            bbox_roi_extractor=dict(
+                type='SingleRoIExtractor',
+                roi_layer=dict(type='RoIAlign', out_size=28, sample_num=0),
+                out_channels=256,
+                featmap_strides=[4, 8, 16, 32]),
+            bbox_head=dict(
+                type='Shared2FCBBoxHead',
+                num_shared_convs=0,
+                with_faceKp=True,
+                in_channels=256,
+                fc_out_channels=512,
+                roi_feat_size=28,
+                num_classes=1,
+                bbox_coder=dict(
+                    type='DeltaXYWHBBoxCoder',
+                    target_means=[0.0, 0.0, 0.0, 0.0],
+                    target_stds=[0.05, 0.05, 0.1, 0.1]),
+                reg_class_agnostic=False,
+                loss_cls=dict(
+                    type='CrossEntropyLoss',
+                    use_sigmoid=False,
+                    loss_weight=1.0),
+                loss_bbox=dict(type='SmoothL1Loss', beta=1.0,
+                               loss_weight=1.0)))
+    ],
+    train_cfg=dict(
+        rpn=dict(
+            assigner=dict(
+                type='MaxIoUAssigner',
+                pos_iou_thr=0.7,
+                neg_iou_thr=0.3,
+                min_pos_iou=0.3,
+                match_low_quality=True,
+                ignore_iof_thr=-1),
+            sampler=dict(
+                type='RandomSampler',
+                num=256,
+                pos_fraction=0.5,
+                neg_pos_ub=-1,
+                add_gt_as_proposals=False),
+            allowed_border=-1,
+            pos_weight=-1,
+            debug=False),
+        rpn_proposal=dict(
+            nms_pre=2000,
+            max_per_img=1000,
+            nms=dict(type='nms', iou_threshold=0.7),
+            min_bbox_size=0),
+        rcnn=dict(
+            assigner=dict(
+                type='MaxIoUAssigner',
+                pos_iou_thr=0.5,
+                neg_iou_thr=0.5,
+                min_pos_iou=0.5,
+                match_low_quality=False,
+                ignore_iof_thr=-1),
+            sampler=dict(
+                type='RandomSampler',
+                num=512,
+                pos_fraction=0.25,
+                neg_pos_ub=-1,
+                add_gt_as_proposals=True),
+            pos_weight=-1,
+            debug=False)),
+    test_cfg=dict(
+        rpn=dict(
+            nms_pre=1000,
+            max_per_img=1000,
+            nms=dict(type='nms', iou_threshold=0.7),
+            min_bbox_size=0),
+        rcnn=dict(
+            score_thr=0.05,
+            nms=dict(type='nms', iou_threshold=0.5),
+            max_per_img=100)))
+dataset_type = 'CocoDataset'
+data_root = 'data/coco/'
+img_norm_cfg = dict(
+    mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
+train_pipeline = [
+    dict(type='LoadImageFromFile'),
+    dict(type='LoadAnnotations', with_bbox=True),
+    dict(type='Resize', img_scale=[1024, 576], keep_ratio=True),
+    dict(type='RandomFlip', flip_ratio=0.0),
+    dict(
+        type='Normalize',
+        mean=[123.675, 116.28, 103.53],
+        std=[58.395, 57.12, 57.375],
+        to_rgb=True),
+    dict(type='Pad', size_divisor=32),
+    dict(type='DefaultFormatBundle'),
+    dict(
+        type='Collect',
+        keys=['img', 'gt_bboxes', 'gt_labels', 'gt_keypoints', 'gt_visibles'])
+]
+test_pipeline = [
+    dict(type='LoadImageFromFile'),
+    dict(
+        type='MultiScaleFlipAug',
+        img_scale=[1024, 576],
+        flip=False,
+        transforms=[
+            dict(type='Resize', keep_ratio=True),
+            dict(type='RandomFlip'),
+            dict(
+                type='Normalize',
+                mean=[123.675, 116.28, 103.53],
+                std=[58.395, 57.12, 57.375],
+                to_rgb=True),
+            dict(type='Pad', size_divisor=32),
+            dict(type='ImageToTensor', keys=['img']),
+            dict(type='Collect', keys=['img'])
+        ])
+]
+data = dict(
+    client_ip='10.10.5.136',
+    client_port=5000,
+    device='cuda:0',
+    samples_per_gpu=2,
+    workers_per_gpu=2,
+    train=dict(
+        type='CocoDataset',
+        ann_file='/home/chase/shy/dataset/lunwen2000_train_res_2080.json',
+        img_prefix='',
+        pipeline=[
+            dict(type='LoadImageFromFile'),
+            dict(type='LoadAnnotations', with_bbox=True),
+            dict(type='Resize', img_scale=[1024, 576], keep_ratio=True),
+            dict(type='RandomFlip', flip_ratio=0.0),
+            dict(
+                type='Normalize',
+                mean=[123.675, 116.28, 103.53],
+                std=[58.395, 57.12, 57.375],
+                to_rgb=True),
+            dict(type='Pad', size_divisor=32),
+            dict(type='DefaultFormatBundle'),
+            dict(
+                type='Collect',
+                keys=[
+                    'img', 'gt_bboxes', 'gt_labels', 'gt_keypoints',
+                    'gt_visibles'
+                ])
+        ]),
+    val=dict(
+        type='CocoDataset',
+        ann_file='/home/chase/shy/dataset/lunwen2000_test_res_2080.json',
+        img_prefix='',
+        pipeline=[
+            dict(type='LoadImageFromFile'),
+            dict(
+                type='MultiScaleFlipAug',
+                img_scale=[1024, 576],
+                flip=False,
+                transforms=[
+                    dict(type='Resize', keep_ratio=True),
+                    dict(type='RandomFlip'),
+                    dict(
+                        type='Normalize',
+                        mean=[123.675, 116.28, 103.53],
+                        std=[58.395, 57.12, 57.375],
+                        to_rgb=True),
+                    dict(type='Pad', size_divisor=32),
+                    dict(type='ImageToTensor', keys=['img']),
+                    dict(type='Collect', keys=['img'])
+                ])
+        ]),
+    test=dict(
+        type='CocoDataset',
+        ann_file='/home/chase/shy/dataset/lunwen2000_test_res_2080.json',
+        img_prefix='',
+        pipeline=[
+            dict(type='LoadImageFromFile'),
+            dict(
+                type='MultiScaleFlipAug',
+                img_scale=[1024, 576],
+                flip=False,
+                transforms=[
+                    dict(type='Resize', keep_ratio=True),
+                    dict(type='RandomFlip'),
+                    dict(
+                        type='Normalize',
+                        mean=[123.675, 116.28, 103.53],
+                        std=[58.395, 57.12, 57.375],
+                        to_rgb=True),
+                    dict(type='Pad', size_divisor=32),
+                    dict(type='ImageToTensor', keys=['img']),
+                    dict(type='Collect', keys=['img'])
+                ])
+        ]))
+evaluation = dict(interval=4, metric='bbox')
+optimizer = dict(type='SGD', lr=0.005, momentum=0.9, weight_decay=0.0001)
+optimizer_config = dict(grad_clip=None)
+lr_config = dict(
+    policy='step',
+    warmup='linear',
+    warmup_iters=500,
+    warmup_ratio=0.001,
+    step=[8, 11])
+runner = dict(type='EpochBasedRunner', max_epochs=12)
+checkpoint_config = dict(interval=12)
+log_config = dict(interval=50, hooks=[dict(type='TextLoggerHook')])
+custom_hooks = [dict(type='NumClassCheckHook')]
+dist_params = dict(backend='nccl')
+log_level = 'INFO'
+load_from = None
+resume_from = None
+workflow = [['train', 1]]
+opencv_num_threads = 0
+mp_start_method = 'fork'
+auto_scale_lr = dict(enable=False, base_batch_size=16)
+work_dir = './work_dirs/faster_rcnn_r50_fpn_2x_coco_spjc/lunwen2000_test_res_2080'
+find_unused_parameters = True
+fedmerge = 'FedAvg'
+
+2023-03-31 18:25:34,604 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 18:25:34,605 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 18:25:34,607 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:27] - INFO: 检查数据集
+2023-03-31 18:25:34,608 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:34] - INFO: {'/home/chase/shy/dataset/lunwen2000_train_res_2080.json': True, '/home/chase/shy/dataset/lunwen2000_test_res_2080.json': True}
+2023-03-31 18:26:30,751 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 18:26:30,751 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 18:26:30,754 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:27] - INFO: 检查数据集
+2023-03-31 18:26:30,755 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:34] - INFO: {'/home/chase/shy/dataset/lunwen2000_train_res_2080.json': True, '/home/chase/shy/dataset/lunwen2000_test_res_2080.json': True}
+2023-03-31 18:27:52,186 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 18:27:52,187 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 18:27:52,191 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:27] - INFO: 检查数据集
+2023-03-31 18:27:52,195 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:34] - INFO: {'/home/chase/shy/dataset/lunwen2000_train_res_2080.json': True, '/home/chase/shy/dataset/lunwen2000_test_res_2080.json': True}
+2023-03-31 18:29:28,807 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 18:29:28,808 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 18:29:28,811 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:27] - INFO: 检查数据集
+2023-03-31 18:29:28,814 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:34] - INFO: {'/home/chase/shy/dataset/lunwen2000_train_res_2080.json': True, '/home/chase/shy/dataset/lunwen2000_test_res_2080.json': True}
+2023-03-31 18:30:13,694 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 18:30:13,695 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 18:30:13,698 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:27] - INFO: 检查数据集
+2023-03-31 18:30:13,701 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:34] - INFO: {'/home/chase/shy/dataset/lunwen2000_train_res_2080.json': True, '/home/chase/shy/dataset/lunwen2000_test_res_2080.json': True}
+2023-03-31 18:31:27,260 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 18:31:27,261 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 18:31:27,271 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:27] - INFO: 检查数据集
+2023-03-31 18:31:27,274 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:34] - INFO: {'/home/chase/shy/dataset/lunwen2000_train_res_2080.json': True, '/home/chase/shy/dataset/lunwen2000_test_res_2080.json': True}
+2023-03-31 18:32:43,642 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 18:32:43,643 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 18:32:43,647 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:27] - INFO: 检查数据集
+2023-03-31 18:32:43,650 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:34] - INFO: {'/home/chase/shy/dataset/lunwen2000_train_res_2080.json': True, '/home/chase/shy/dataset/lunwen2000_test_res_2080.json': True}
+2023-03-31 18:59:16,159 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 18:59:16,160 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 19:00:11,814 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 19:00:11,815 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 19:07:45,815 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 19:07:45,815 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 19:08:06,881 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 19:08:06,881 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 19:09:06,709 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 19:09:06,710 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 19:13:10,437 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 19:13:10,438 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 19:16:09,557 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 19:16:09,558 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 19:16:51,622 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 19:16:51,623 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 19:16:53,212 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 19:17:19,618 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/lunwen2000_train_res_2080.json': True, '/home/chase/shy/dataset/lunwen2000_test_res_2080.json': True}
+2023-03-31 19:17:37,298 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 19:17:37,298 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 19:17:37,303 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 19:17:37,308 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/lunwen2000_train_res_2080.json': True, '/home/chase/shy/dataset/lunwen2000_test_res_2080.json': True}
+2023-03-31 19:18:42,885 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 19:18:42,886 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 19:18:42,891 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 19:18:42,896 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/lunwen2000_train_res_2080.json': True, '/home/chase/shy/dataset/lunwen2000_test_res_2080.json': True}
+2023-03-31 19:26:25,349 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 19:26:25,349 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 19:26:25,355 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 19:26:25,359 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/lunwen2000_train_res_2080.json': True, '/home/chase/shy/dataset/lunwen2000_test_res_2080.json': True}
+2023-03-31 20:35:08,858 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 20:35:08,860 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 20:35:11,657 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 20:35:11,686 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/lunwen2000_train_res_2080.json': True, '/home/chase/shy/dataset/lunwen2000_test_res_2080.json': True}
+2023-03-31 20:35:53,376 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 20:35:53,377 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 20:35:53,390 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 20:35:53,397 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/lunwen2000_train_res_2080.json': True, '/home/chase/shy/dataset/lunwen2000_test_res_2080.json': True}
+2023-03-31 20:36:31,061 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 20:36:31,062 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 20:36:31,068 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 20:36:31,073 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/lunwen2000_train_res_2080.json': True, '/home/chase/shy/dataset/lunwen2000_test_res_2080.json': True}
+2023-03-31 20:39:00,843 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 20:39:00,844 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 20:39:00,855 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 20:39:00,863 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 20:40:27,809 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 20:40:27,810 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 20:40:27,820 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 20:40:27,828 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 20:44:37,033 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 20:44:37,034 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 20:44:37,044 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 20:44:37,052 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 20:45:58,990 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:15] - INFO: 完成一次训练
+2023-03-31 20:46:43,982 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 20:46:43,983 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 20:46:43,993 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 20:46:44,001 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 20:59:35,219 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 20:59:35,219 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 20:59:35,225 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 20:59:35,229 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 20:59:51,304 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:15] - INFO: 完成一次训练
+2023-03-31 21:00:02,185 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:15] - INFO: 完成一次训练
+2023-03-31 21:05:11,491 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 21:05:11,492 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 21:05:11,497 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 21:05:11,501 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 21:05:28,514 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:15] - INFO: 完成一次训练
+2023-03-31 21:12:50,473 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 21:12:50,474 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 21:12:50,485 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 21:12:50,493 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 21:42:04,070 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 21:42:04,071 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 21:42:10,615 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 21:42:10,626 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 21:42:29,363 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:18] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 21:46:17,862 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 21:46:17,862 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 21:46:17,869 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 21:46:17,873 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 21:46:33,951 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:19] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 21:48:17,410 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 21:48:17,411 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 21:48:17,433 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 21:48:17,441 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 21:48:37,875 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:19] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 21:49:08,823 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 21:49:08,824 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 21:49:08,846 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 21:49:08,869 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 21:49:29,760 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:19] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 21:49:34,097 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 21:49:34,098 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 21:49:34,119 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 21:49:34,127 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 21:49:52,891 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:19] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 21:50:26,973 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 21:50:26,973 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 21:50:26,989 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 21:50:26,994 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 21:50:43,220 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:19] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 21:50:50,329 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 21:50:50,330 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 21:50:50,345 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 21:50:50,349 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 21:51:05,373 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:19] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 21:51:20,441 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 21:51:20,441 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 21:51:20,457 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 21:51:20,462 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 21:51:36,698 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:19] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 21:51:56,673 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 21:51:56,673 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 21:51:56,689 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 21:51:56,692 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 21:52:11,490 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:19] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 21:52:39,447 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 21:52:39,447 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 21:52:39,453 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 21:52:39,457 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 21:52:55,461 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:19] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 21:53:18,475 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 21:53:18,476 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 21:53:18,497 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 21:53:18,505 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 21:53:38,642 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:19] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 21:54:19,589 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 21:54:19,590 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 21:54:19,601 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 21:54:19,608 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 21:54:39,817 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:19] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 21:55:17,651 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 21:55:17,652 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 21:55:17,657 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 21:55:17,661 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 21:55:33,563 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:19] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 21:56:29,303 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 21:56:29,303 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 21:56:29,308 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 21:56:29,313 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 21:56:45,547 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:20] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 21:58:19,326 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 21:58:19,327 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 21:58:19,343 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 21:58:19,347 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 21:58:35,456 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:20] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 22:01:14,435 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 22:01:14,436 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 22:01:14,451 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 22:01:14,455 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 22:01:30,412 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:20] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 22:04:20,779 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 22:04:20,780 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 22:04:20,795 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 22:04:20,799 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 22:04:36,985 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:20] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 22:07:39,701 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 22:07:39,702 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 22:07:39,718 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 22:07:39,722 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 22:07:56,026 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:20] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 22:08:22,251 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 22:08:22,251 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 22:08:22,267 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 22:08:22,271 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 22:08:38,433 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:20] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 22:12:22,644 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 22:12:22,645 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 22:12:22,660 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 22:12:22,664 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 22:12:38,845 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:20] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 22:14:06,379 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 22:14:06,379 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 22:14:06,395 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 22:14:06,399 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 22:14:22,498 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:20] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 22:14:40,909 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 22:14:40,910 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 22:14:40,925 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 22:14:40,929 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 22:14:56,895 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:20] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 22:18:23,727 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 22:18:23,727 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 22:18:23,733 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 22:18:23,738 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 22:18:39,964 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:20] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 22:20:03,117 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 22:20:03,118 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 22:20:03,123 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 22:20:03,128 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 22:20:19,130 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:20] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 22:21:36,693 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 22:21:36,694 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 22:21:36,709 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 22:21:36,714 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 22:21:53,051 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:20] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 22:23:26,773 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 22:23:26,773 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 22:23:26,789 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 22:23:26,794 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 22:23:42,729 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:20] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 22:24:58,485 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 22:24:58,486 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 22:24:58,501 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 22:24:58,506 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 22:25:14,503 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:20] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 22:25:40,252 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 22:25:40,252 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 22:25:40,269 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 22:25:40,273 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 22:25:56,421 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:20] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 22:26:08,485 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 22:26:08,486 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 22:26:08,504 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 22:26:08,509 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 22:26:25,174 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:20] - INFO: 完成一次训练,等待联邦融合
+2023-03-31 22:27:40,137 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:18] - INFO: 检查环境
+2023-03-31 22:27:40,138 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:22] - INFO: {'mmdet': '2.25.3'}
+2023-03-31 22:27:40,143 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:47] - INFO: 检查数据集
+2023-03-31 22:27:40,148 - /home/chase/PycharmProjects/MMFedClient/client/check.py[line:54] - INFO: {'/home/chase/shy/dataset/hyfactor/lunwen2000_detect_train_res_2080.json': True, '/home/chase/shy/dataset/hyfactor/lunwen2000_detect_test_res_2080.json': True}
+2023-03-31 22:27:56,653 - /home/chase/PycharmProjects/MMFedClient/client/mmhook/epochToFedServer.py[line:20] - INFO: 完成一次训练,等待联邦融合
