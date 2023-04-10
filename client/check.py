@@ -4,7 +4,7 @@ from client import app
 from flask import request, send_file
 import pkg_resources
 from utils.Log import logger
-from utils.common import is_file_transfer_complete
+from utils.common import is_file_transfer_complete,get_epoch_time
 
 def get_package_version(package_name):
     try:
@@ -46,7 +46,20 @@ def upload_file():
     current_path = os.getcwd()
     filepath = current_path+'/'+request.form['filepath']
     if not os.path.exists(filepath):
-        return '模型训练中', 400
+        # 获取训练时间
+        # init log path
+        log_path = ''
+        paths = filepath.split('/')
+        for i in range(len(paths) - 1):
+            log_path = log_path + paths[i] + '/'
+        logfile = log_path + 'train.log'
+        epoch_time = get_epoch_time(logfile)
+        if epoch_time == 0:
+            logger.info('上传模型:' + filepath)
+            assert is_file_transfer_complete(filepath, 10)
+            return send_file(filepath, as_attachment=True), 200
+        logger.info(':模型训练中,预计训练时间:'+str(epoch_time))
+        return str(epoch_time), 400
     else:
         logger.info('上传模型:'+filepath)
         assert is_file_transfer_complete(filepath, 10)
@@ -67,8 +80,6 @@ def check_dataset():
 @app.route('/check_online', methods=['POST'])
 def check_online():
     return {'status':'online'}
-
-
 
 @app.route('/download_epoch', methods=['GET'])
 def download_epoch():

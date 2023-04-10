@@ -11,20 +11,29 @@ from mmdet import __version__
 from mmdet.apis import init_random_seed, set_random_seed, train_detector
 from mmdet.datasets import build_dataset
 from mmdet.models import build_detector
-from mmdet.utils import (collect_env, get_device, get_root_logger,
-                         replace_cfg_vals, setup_multi_processes,
-                         update_data_root)
 from client import app
 from flask import request
 import multiprocessing
 # 注册联邦hook
 import client.mmhook.fed_reload
-# multiprocessing.set_start_method('spawn', force=True)
+multiprocessing.set_start_method('spawn', force=True)
 
 
 @app.route('/start_train', methods=['POST'])
 def start_train():
     cfg_file = request.data.decode()
+    t = multiprocessing.Process(target=trainer, args=(cfg_file, ))
+    t.start()
+    # trainer(model, datasets, cfg, timestamp, meta)
+    # print(multiprocessing.get_start_method())
+    return 'success'
+
+# def trainer(model, datasets, cfg, timestamp, meta):
+def trainer(cfg_file):
+    from mmdet.utils import (collect_env, get_device, get_root_logger,
+                             replace_cfg_vals, setup_multi_processes,
+                             update_data_root)
+
     cfg = Config.fromfile(cfg_file)
     cfg_files = cfg_file.split('/')
     #init wrok_dir
@@ -34,7 +43,7 @@ def start_train():
     cfg.work_dir = work_dir
     # init the logger before other steps
     timestamp = time.strftime('%Y%m%d_%H%M%S', time.localtime())
-    log_file = osp.join(cfg.work_dir, f'{timestamp}.log')
+    log_file = osp.join(cfg.work_dir, 'train.log')
     logger = get_root_logger(log_file=log_file, log_level=cfg.log_level)
 
     # set multi-process settings
@@ -86,13 +95,7 @@ def start_train():
             CLASSES=datasets[0].CLASSES)
     # add an attribute for visualization convenience
     model.CLASSES = datasets[0].CLASSES
-    # trainer(model, datasets, cfg, timestamp, meta)
-    # print(multiprocessing.get_start_method())
-    t = multiprocessing.Process(target=trainer, args=(model, datasets, cfg, timestamp, meta))
-    t.start()
-    return 'success'
 
-def trainer(model, datasets, cfg, timestamp, meta):
     train_detector(
         model,
         datasets,
