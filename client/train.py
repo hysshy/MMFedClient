@@ -41,6 +41,8 @@ def trainer(cfg_file):
     for i in range(len(cfg_files) - 1):
         work_dir = work_dir + cfg_files[i] + '/'
     cfg.work_dir = work_dir
+    if cfg.resume_from is not None:
+        cfg.resume_from = work_dir+'/'+ cfg.resume_from
     # init the logger before other steps
     timestamp = time.strftime('%Y%m%d_%H%M%S', time.localtime())
     log_file = osp.join(cfg.work_dir, 'train.log')

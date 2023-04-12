@@ -38,11 +38,13 @@ def get_epoch_time(log_file):
         max_line = len(lines)
         for i in range(1, 3):
             last_line = lines[max_line - i]
-            if 'Epoch' not in last_line and ' time: ' not in last_line:
+            if 'Saving checkpoint' in last_line:
+                time.sleep(2)
+                return 0
+            elif 'Epoch' not in last_line and ' time: ' not in last_line:
                 get_train_line = False
                 break
-            elif 'Saving checkpoint' in last_line:
-                return 0
+
             else:
                 get_train_line = True
         time.sleep(10)
