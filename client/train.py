@@ -14,6 +14,7 @@ from mmdet.models import build_detector
 from client import app
 from flask import request
 import multiprocessing
+import torch
 # 注册联邦hook
 import client.mmhook.fed_reload
 multiprocessing.set_start_method('spawn', force=True)
@@ -28,21 +29,37 @@ def start_train():
     # print(multiprocessing.get_start_method())
     return 'success'
 
-# def trainer(model, datasets, cfg, timestamp, meta):
-def trainer(cfg_file):
-    from mmdet.utils import (collect_env, get_device, get_root_logger,
-                             replace_cfg_vals, setup_multi_processes,
-                             update_data_root)
 
-    cfg = Config.fromfile(cfg_file)
+def pre_train(cfg_file, cfg):
     cfg_files = cfg_file.split('/')
     #init wrok_dir
     work_dir = ''
     for i in range(len(cfg_files) - 1):
         work_dir = work_dir + cfg_files[i] + '/'
     cfg.work_dir = work_dir
+    # resume train 加载联邦融合模型
     if cfg.resume_from is not None:
-        cfg.resume_from = work_dir+'/'+ cfg.resume_from
+        job_dir = ''
+        for i in range(len(cfg_files) - 2):
+            job_dir = job_dir + cfg_files[i] + '/'
+        merge_epoch_file = job_dir+'merge_'+ cfg.resume_from
+        assert os.path.exists(merge_epoch_file)
+        cfg.resume_from = work_dir + cfg.resume_from
+        resume_epoch_dict = torch.load(cfg.resume_from, map_location='cpu')
+        merge_dict = torch.load(merge_epoch_file, map_location='cpu')
+        for key, value in merge_dict.items():
+            resume_epoch_dict['state_dict'][key] = value
+        torch.save(resume_epoch_dict, cfg.resume_from)
+
+
+def trainer(cfg_file):
+    from mmdet.utils import (collect_env, get_device, get_root_logger,
+                             replace_cfg_vals, setup_multi_processes,
+                             update_data_root)
+
+    cfg = Config.fromfile(cfg_file)
+    #训练前预处理
+    pre_train(cfg_file, cfg)
     # init the logger before other steps
     timestamp = time.strftime('%Y%m%d_%H%M%S', time.localtime())
     log_file = osp.join(cfg.work_dir, 'train.log')

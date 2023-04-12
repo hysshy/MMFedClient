@@ -54,10 +54,6 @@ def upload_file():
             log_path = log_path + paths[i] + '/'
         logfile = log_path + 'train.log'
         epoch_time = get_epoch_time(logfile)
-        if epoch_time == 0:
-            logger.info('上传模型:' + filepath)
-            assert is_file_transfer_complete(filepath, 10)
-            return send_file(filepath, as_attachment=True), 200
         logger.info(':模型训练中,预计训练时间:'+str(epoch_time))
         return str(epoch_time), 400
     else:
