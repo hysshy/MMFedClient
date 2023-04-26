@@ -13,7 +13,7 @@ class FedReload(Hook):
     def after_train_epoch(self, runner):
         if self.every_n_epochs(runner, self.interval):
             # finish_train = Tru
-            if runner.epoch + 1 == runner._max_epoch:
+            if runner.epoch + 1 == runner.max_epochs:
                 logger.info('完成训练')
             else:
                 logger.info('完成第{}次训练,等待联邦融合'.format(str(runner.epoch+1)))
