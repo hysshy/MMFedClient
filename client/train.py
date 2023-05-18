@@ -17,6 +17,7 @@ import multiprocessing
 import torch
 # 注册联邦hook
 import client.mmhook.fed_reload
+import client.mmhook.fed_lw
 multiprocessing.set_start_method('spawn', force=True)
 
 
@@ -114,7 +115,10 @@ def trainer(cfg_file):
             CLASSES=datasets[0].CLASSES)
     # add an attribute for visualization convenience
     model.CLASSES = datasets[0].CLASSES
-
+    # add fedlw
+    fedlw = False
+    if hasattr(cfg, 'fedlw'):
+        fedlw = cfg.fedlw
     train_detector(
         model,
         datasets,
@@ -122,5 +126,6 @@ def trainer(cfg_file):
         distributed=False,
         validate=True,
         timestamp=timestamp,
-        meta=meta)
+        meta=meta,
+        fed_lw=fedlw)
 
