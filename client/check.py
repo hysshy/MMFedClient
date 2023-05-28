@@ -38,10 +38,11 @@ def download_file():
     if not os.path.exists(savepath):
         os.makedirs(savepath)
     file.save(savepath+'/'+file.filename)
+    logger.info('下载完毕文件:' + savepath+'/'+file.filename)
     # 返回响应
     return savepath+'/'+file.filename, 200
 
-@app.route('/upload_file', methods=['GET'])
+@app.route('/upload_file', methods=['POST'])
 def upload_file():
     current_path = os.getcwd()
     filepath = current_path+'/'+request.form['filepath']
@@ -57,8 +58,8 @@ def upload_file():
         logger.info(':模型训练中,预计训练时间:'+str(epoch_time))
         return str(epoch_time), 400
     else:
-        logger.info('上传模型:'+filepath)
         assert is_file_transfer_complete(filepath, 10)
+        logger.info('上传模型:'+filepath)
         return send_file(filepath, as_attachment=True), 200
 
 @app.route('/check_dataset', methods=['POST'])
@@ -111,7 +112,8 @@ def post_client_loss():
             if fedlw_num == int(cur_fedlw_num):
                 return lines[-1].strip('\n')
     logfile = work_dir + '/train.log'
-    epoch_time = get_fedlw_iter_time(logfile, total_fedlw_num, fedlw_num)
+    # epoch_time = get_fedlw_iter_time(logfile, total_fedlw_num, fedlw_num)
+    epoch_time = 5
     # logger.info(':模型训练中,预计fed_lw_iter时间:' + str(epoch_time))
     return str(epoch_time), 400
 

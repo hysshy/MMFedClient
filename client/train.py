@@ -15,6 +15,7 @@ from client import app
 from flask import request
 import multiprocessing
 import torch
+from utils.common import is_file_transfer_complete
 # 注册联邦hook
 import client.mmhook.fed_reload
 import client.mmhook.fed_lw
@@ -44,7 +45,7 @@ def pre_train(cfg_file, cfg):
         for i in range(len(cfg_files) - 2):
             job_dir = job_dir + cfg_files[i] + '/'
         merge_epoch_file = job_dir+'merge_'+ cfg.resume_from
-        assert os.path.exists(merge_epoch_file)
+        assert is_file_transfer_complete(merge_epoch_file, 10)
         cfg.resume_from = work_dir + cfg.resume_from
         resume_epoch_dict = torch.load(cfg.resume_from, map_location='cpu')
         merge_dict = torch.load(merge_epoch_file, map_location='cpu')
