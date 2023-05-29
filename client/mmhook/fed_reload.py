@@ -13,9 +13,9 @@ class FedReload(Hook):
         self.interval = interval
 
     def after_train_epoch(self, runner):
-        self.send_epoch_sever(runner)
         if self.every_n_epochs(runner, self.interval):
             # finish_train = Tru
+            self.send_epoch_sever(runner)
             if runner.epoch + 1 == runner.max_epochs:
                 logger.info('完成训练')
             else:
