@@ -1,7 +1,8 @@
 from client import app
 from flask_restful import Api
 import argparse
-
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train a MMFed detector')
