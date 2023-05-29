@@ -96,6 +96,15 @@ def get_fedlw_iter_time(log_file, total_fedlw_num, fedlw_num):
         epoch_time = (expect_iter - last_iter) * min(iter_time_list)
     return epoch_time
 
+def get_img_file(file_name,type):
+    imagelist = []
+    for parent, dirnames, filenames in os.walk(file_name):
+        for filename in filenames:
+            if filename.lower().endswith(type):
+                imagelist.append(os.path.join(parent, filename))
+        return imagelist
+
+
+
 if __name__ == '__main__':
-    epoch_time = get_epoch_time('/home/chase/PycharmProjects/MMFedClient/job/101/0_10.10.5.136/train.log')
-    print(epoch_time)
+    print(get_img_file('/home/chase/PycharmProjects/MMFeDServer/job/101/1_172.16.1.190', '.py'))

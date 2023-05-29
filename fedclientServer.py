@@ -1,5 +1,5 @@
 from client import app
-from flask_restful import Api, Resource
+from flask_restful import Api
 import argparse
 
 

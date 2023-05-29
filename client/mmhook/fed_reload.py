@@ -2,7 +2,9 @@ from mmcv.runner.hooks import HOOKS, Hook
 from utils.Log import logger
 import os
 import time
-from utils.common import is_file_transfer_complete
+from utils.common import is_file_transfer_complete, get_img_file
+from mmcv import Config
+from server.check_sever import upload_file
 
 @HOOKS.register_module()
 class FedReload(Hook):
@@ -17,8 +19,19 @@ class FedReload(Hook):
                 logger.info('完成训练')
             else:
                 logger.info('完成第{}次训练,等待联邦融合'.format(str(runner.epoch+1)))
+                self.send_epoch_sever(runner)
                 self.reload_model(runner)
 
+    def send_epoch_sever(self, runner):
+        cfg = get_img_file(runner.work_dir, '.py')[0]
+        cfg = Config.fromfile(cfg)
+        epoch_path = runner.work_dir+'/epoch_'+str(runner.epoch+1)+'.pth'
+        work_dirs = runner.work_dir.split('/')
+        savepath = ''
+        for i in range(len(work_dirs)):
+            if work_dirs[i] == 'job' or 'job' in savepath:
+                savepath = savepath + work_dirs[i] + '/'
+        upload_file(epoch_path, savepath, cfg.server_ip, cfg.server_port)
 
     def reload_model(self, runner):
         # 检查融合模型是否已分布
