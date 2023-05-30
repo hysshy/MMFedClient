@@ -133,5 +133,18 @@ def get_client_fedlw():
         f.close()
     return 'sucess'
 
+@app.route('/get_client_adaptive_w', methods=['POST'])
+def get_client_adaptive_w():
+    data = request.get_json()
+    work_dir = data['work_dir']
+    tasktype = data['tasktype']
+    adaptive_w = data['adaptive_w']
+    logger.info('更新adaptive_w:'+str(adaptive_w))
+    with open(work_dir + '/adaptive_w.txt', mode='w') as f:
+        f.write(str(tasktype)+':'+str(adaptive_w)+'\n')
+        f.flush()
+        f.close()
+    return 'sucess'
+
 if __name__ == '__main__':
     print(get_package_version('mmdet'))
