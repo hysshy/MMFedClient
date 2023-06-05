@@ -4,7 +4,7 @@ from client import app
 from flask import request, send_file
 import pkg_resources
 from utils.Log import logger
-from utils.common import is_file_transfer_complete,get_epoch_time, get_fedlw_iter_time
+from utils.common import is_file_transfer_complete,get_epoch_time, get_fedbl_iter_time
 
 def get_package_version(package_name):
     try:
@@ -103,48 +103,48 @@ def download_epoch():
 def post_client_loss():
     data = request.get_json()
     work_dir = data['work_dir']
-    fedlw_num = data['fedlw_num']
-    total_fedlw_num = data['total_fedlw_num']
-    if os.path.exists(work_dir + '/fedlw.txt'):
-        with open(work_dir + '/fedlw.txt', mode='r') as f:
+    fedbl_num = data['fedbl_num']
+    total_fedbl_num = data['total_fedbl_num']
+    if os.path.exists(work_dir + '/fedbl.txt'):
+        with open(work_dir + '/fedbl.txt', mode='r') as f:
             lines = f.readlines()
-            cur_fedlw_num = lines[-3].strip('\n').split(':')[-1]
-            if fedlw_num == int(cur_fedlw_num):
+            cur_fedbl_num = lines[-3].strip('\n').split(':')[-1]
+            if fedbl_num == int(cur_fedbl_num):
                 return lines[-1].strip('\n')
-    logfile = work_dir + '/train.log'
-    # epoch_time = get_fedlw_iter_time(logfile, total_fedlw_num, fedlw_num)
-    epoch_time = 5
+    # logfile = work_dir + '/train.log'
+    # epoch_time = get_fedbl_iter_time(logfile, total_fedbl_num, fedbl_num)
+    epoch_time = 10
     # logger.info(':模型训练中,预计fed_lw_iter时间:' + str(epoch_time))
     return str(epoch_time), 400
 
-@app.route('/get_client_fedlw', methods=['POST'])
-def get_client_fedlw():
+@app.route('/get_client_fedbl', methods=['POST'])
+def get_client_fedbl():
     data = request.get_json()
     work_dir = data['work_dir']
-    fedlw_num = data['fedlw_num']
-    fedlw = data['fedlw']
-    logger.info('更新fedlw:'+str(fedlw))
-    with open(work_dir + '/fedlw.txt', mode='a') as f:
+    fedbl_num = data['fedbl_num']
+    bl_w = data['bl_w']
+    logger.info('更新fedbl:'+str(bl_w))
+    with open(work_dir + '/fedbl.txt', mode='a') as f:
         # lines = f.readlines()
-        # cur_fedlw_num = lines[-3].strip('\n').split(':')[-1]
-        # assert fedlw_num == int(cur_fedlw_num)
-        f.write('fedlw:'+str(fedlw)+'\n')
+        # cur_fedbl_num = lines[-3].strip('\n').split(':')[-1]
+        # assert fedbl_num == int(cur_fedbl_num)
+        f.write('bl_w:'+str(bl_w)+'\n')
         f.flush()
         f.close()
     return 'sucess'
 
-@app.route('/get_client_adaptive_w', methods=['POST'])
-def get_client_adaptive_w():
-    data = request.get_json()
-    work_dir = data['work_dir']
-    tasktype = data['tasktype']
-    adaptive_w = data['adaptive_w']
-    logger.info('更新adaptive_w:'+str(adaptive_w))
-    with open(work_dir + '/adaptive_w.txt', mode='w') as f:
-        f.write(str(tasktype)+':'+str(adaptive_w)+'\n')
-        f.flush()
-        f.close()
-    return 'sucess'
+# @app.route('/get_client_bl_w', methods=['POST'])
+# def get_client_bl_w():
+#     data = request.get_json()
+#     work_dir = data['work_dir']
+#     tasktype = data['tasktype']
+#     bl_w = data['bl_w']
+#     logger.info('更新bl_w:'+str(bl_w))
+#     with open(work_dir + '/fedbl.txt', mode='w') as f:
+#         f.write(str(tasktype)+':'+str(bl_w)+'\n')
+#         f.flush()
+#         f.close()
+#     return 'sucess'
 
 if __name__ == '__main__':
     print(get_package_version('mmdet'))
