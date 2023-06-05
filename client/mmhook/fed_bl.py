@@ -15,11 +15,11 @@ class FedBL(Hook):
     def after_iter(self, runner):
         self.lossList.append(runner.outputs['loss'].data.cpu().numpy())
         if self.cur_fedbl_num < self.total_fedbl_num:
-            self.cur_fedbl_num += 1
             max_iter_per_epoch = runner.max_iters/runner.max_epochs
             loss_fed_interval = int(max_iter_per_epoch/(self.total_fedbl_num+1))
             # if self.every_n_iters(runner, loss_fed_interval):
             if (runner.inner_iter + 1) % loss_fed_interval == 0:
+                self.cur_fedbl_num += 1
                 with open(runner.work_dir+'/fedbl.txt', mode='a+') as f:
                     # f.write('fedbl_num:'+str(int(((runner.iter + 1) % max_iter_per_epoch)/loss_fed_interval))+'\n')
                     f.write('fedbl_num:' + str(int((runner.inner_iter + 1) / loss_fed_interval)) + '\n')
