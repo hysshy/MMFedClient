@@ -4,7 +4,7 @@ from client import app
 from flask import request, send_file
 import pkg_resources
 from utils.Log import logger
-from utils.common import is_file_transfer_complete,get_epoch_time, get_fedbl_iter_time
+from utils.common import is_file_transfer_complete,get_epoch_time
 
 def get_package_version(package_name):
     try:
