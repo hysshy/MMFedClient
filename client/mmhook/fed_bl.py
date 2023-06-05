@@ -28,7 +28,7 @@ class FedBL(Hook):
             while(1):
                 with open(runner.work_dir + '/fedbl.txt', mode='r') as f:
                     lines = f.readlines()
-                    if lines[-1].startswith('fedbl'):
+                    if lines[-1].startswith('bl_w'):
                         break
                     else:
                         time.sleep(10)
