@@ -128,5 +128,5 @@ def trainer(cfg_file):
         validate=True,
         timestamp=timestamp,
         meta=meta,
-        fed_lw=fedbl)
+        fedbl=fedbl)
 
