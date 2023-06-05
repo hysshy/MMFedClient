@@ -18,7 +18,7 @@ import torch
 from utils.common import is_file_transfer_complete
 # 注册联邦hook
 import client.mmhook.fed_reload
-import client.mmhook.fed_lw
+import client.mmhook.fed_bl
 multiprocessing.set_start_method('spawn', force=True)
 
 
