@@ -117,9 +117,9 @@ def trainer(cfg_file):
     # add an attribute for visualization convenience
     model.CLASSES = datasets[0].CLASSES
     # add fedlw
-    fedlw = False
-    if hasattr(cfg, 'fedlw'):
-        fedlw = cfg.fedlw
+    fedbl = False
+    if hasattr(cfg, 'fedbl'):
+        fedbl = cfg.fedbl
     train_detector(
         model,
         datasets,
@@ -128,5 +128,5 @@ def trainer(cfg_file):
         validate=True,
         timestamp=timestamp,
         meta=meta,
-        fed_lw=fedlw)
+        fed_lw=fedbl)
 
