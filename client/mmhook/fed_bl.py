@@ -36,14 +36,14 @@ class FedBL(Hook):
                         else:
                             time.sleep(10)
 
-    def after_train_epoch(self, runner):
-        self.lossList = []
-        self.cur_fedbl_num = 0
-        with open(runner.work_dir + '/fedbl.txt', mode='a+') as f:
-            # f.write('fedbl_num:'+str(int(((runner.iter + 1) % max_iter_per_epoch)/loss_fed_interval))+'\n')
-            f.write('fedbl_num:0' + '\n')
-            f.write('iter:' + str(runner.iter) + '\n')
-            f.write('loss:' + str(np.mean(self.lossList)) + '\n')
-            f.write('bl_w:1' + '\n')
-            f.flush()
-            f.close()
+    # def after_train_epoch(self, runner):
+    #     self.lossList = []
+    #     self.cur_fedbl_num = 0
+    #     with open(runner.work_dir + '/fedbl.txt', mode='a+') as f:
+    #         # f.write('fedbl_num:'+str(int(((runner.iter + 1) % max_iter_per_epoch)/loss_fed_interval))+'\n')
+    #         f.write('fedbl_num:0' + '\n')
+    #         f.write('iter:' + str(runner.iter) + '\n')
+    #         f.write('loss:' + str(np.mean(self.lossList)) + '\n')
+    #         f.write('bl_w:1' + '\n')
+    #         f.flush()
+    #         f.close()
