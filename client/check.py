@@ -4,7 +4,9 @@ from client import app
 from flask import request, send_file
 import pkg_resources
 from utils.Log import logger
-from utils.common import is_file_transfer_complete,get_epoch_time
+from utils.common import is_file_transfer_complete,get_epoch_time, get_loss, get_schedule, get_hardware
+import os
+import torch
 
 def get_package_version(package_name):
     try:
@@ -76,7 +78,16 @@ def check_dataset():
 
 @app.route('/check_online', methods=['POST'])
 def check_online():
-    return {'status':'online'}
+    trainJsonPath = '/home/chase/shy/dataset/publicDatas/lunwenjson'
+    code = 1
+    gpu = []
+    msg = []
+    if torch.cuda.is_available():
+        code = 0
+        gpu = [i for i in range(torch.cuda.device_count())]
+        msg = os.listdir(trainJsonPath)
+    torch.cuda.device_count()
+    return {'code':code, 'gpu':gpu, 'msg':msg}
 
 @app.route('/download_epoch', methods=['GET'])
 def download_epoch():
@@ -99,8 +110,8 @@ def download_epoch():
     # 返回响应
     return job_dir+'/'+file.filename, 200
 
-@app.route('/post_client_loss', methods=['POST'])
-def post_client_loss():
+@app.route('/post_fedbl_loss', methods=['POST'])
+def post_fedbl_loss():
     data = request.get_json()
     work_dir = data['work_dir']
     fedbl_num = data['fedbl_num']
@@ -133,18 +144,26 @@ def get_client_fedbl():
         f.close()
     return 'sucess'
 
-# @app.route('/get_client_bl_w', methods=['POST'])
-# def get_client_bl_w():
-#     data = request.get_json()
-#     work_dir = data['work_dir']
-#     tasktype = data['tasktype']
-#     bl_w = data['bl_w']
-#     logger.info('更新bl_w:'+str(bl_w))
-#     with open(work_dir + '/fedbl.txt', mode='w') as f:
-#         f.write(str(tasktype)+':'+str(bl_w)+'\n')
-#         f.flush()
-#         f.close()
-#     return 'sucess'
+@app.route('/get_client_loss', methods=['GET'])
+def get_client_loss():
+    data = request.get_json()
+    logfile = data['logfile']
+    loss = get_loss(logfile)
+    return loss
+
+@app.route('/get_client_schedule', methods=['GET'])
+def get_client_schedule():
+    data = request.get_json()
+    logfile = data['logfile']
+    schedule = get_schedule(logfile)
+    return schedule
+
+@app.route('/get_client_hardware', methods=['GET'])
+def get_client_hardware():
+    data = request.get_json()
+    gpu = data['gpu']
+    reponse = get_hardware(gpu)
+    return reponse
 
 if __name__ == '__main__':
     print(get_package_version('mmdet'))

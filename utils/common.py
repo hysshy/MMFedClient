@@ -1,6 +1,8 @@
 import os
 import time
 import re
+from pynvml import *
+import psutil
 
 def is_file_transfer_complete(filepath, timeout=10):
     """
@@ -96,6 +98,45 @@ def get_fedlw_iter_time(log_file, total_fedlw_num, fedlw_num):
         epoch_time = (expect_iter - last_iter) * min(iter_time_list)
     return epoch_time
 
+def get_loss(log_file):
+    while 1:
+        with open(log_file, 'r') as f:
+            lines = f.readlines()
+            f.close()
+        max_line = len(lines)
+        for i in range(1, 3):
+            last_line = lines[max_line - i].strip('\n')
+            if 'Epoch' in last_line and ' time: ' in last_line:
+                match_obj = re.match(r'.*\[(\d+)/(\d+)\].*', last_line)
+                last_iter = int(match_obj.group(1))
+                total_iter = int(match_obj.group(2))
+                match_obj = re.match(r'.*\[(\d+)\].*', last_line)
+                epoch = int(match_obj.group(1))
+                lastlines = last_line.split(',')
+                loss = float(lastlines[-1].split(':')[-1].strip(' '))
+                curiter = (epoch-1)*total_iter + last_iter
+                return {'curiter':curiter, 'loss':loss}
+        time.sleep(10)
+
+def get_schedule(log_file):
+    while 1:
+        with open(log_file, 'r') as f:
+            lines = f.readlines()
+            f.close()
+        max_line = len(lines)
+        for i in range(1, 3):
+            last_line = lines[max_line - i].strip('\n')
+            if 'Epoch' in last_line and ' time: ' in last_line:
+                match_obj = re.match(r'.*\[(\d+)/(\d+)\].*', last_line)
+                last_iter = int(match_obj.group(1))
+                total_iter = int(match_obj.group(2))
+                match_obj = re.match(r'.*\[(\d+)\].*', last_line)
+                epoch = int(match_obj.group(1))
+                curiter = (epoch-1)*total_iter + last_iter
+                reponse = str(curiter)+'/'+str(total_iter*12)
+                return reponse
+        time.sleep(10)
+
 def get_img_file(file_name,type):
     imagelist = []
     for parent, dirnames, filenames in os.walk(file_name):
@@ -104,7 +145,29 @@ def get_img_file(file_name,type):
                 imagelist.append(os.path.join(parent, filename))
         return imagelist
 
-
+def get_hardware(gpu):
+    #GPU使用率
+    nvmlInit()
+    handle = nvmlDeviceGetHandleByIndex(gpu)
+    info = nvmlDeviceGetMemoryInfo(handle)
+    total_gpu = str((info.total // 1048576) / 1024)
+    used_gpu = str((info.used // 1048576) / 1024)
+    info_gpu = str(used_gpu)+'/'+str(total_gpu)
+    #CPU使用率
+    used_cpu = psutil.cpu_percent(interval=1)
+    info_cpu = str(used_cpu)+'/'+str(100)
+    #内存使用率
+    memory = psutil.virtual_memory()
+    total_memory = str(round((float(memory.total) / 1024 / 1024 / 1024), 2))
+    used_memory = str(round((float(memory.used) / 1024 / 1024 / 1024), 2))
+    info_memory = used_memory+'/'+total_memory
+    #磁盘使用率
+    disk = psutil.disk_usage('/')
+    total_disk = str(round((float(disk.total) / 1024 / 1024 / 1024)))
+    used_disk = str(round((float(disk.used) / 1024 / 1024 / 1024)))
+    info_disk = used_disk+'/'+total_disk
+    return {'GPU':info_gpu, 'CPU':info_cpu, '内存':info_memory, '磁盘':info_disk}
 
 if __name__ == '__main__':
-    print(get_img_file('/home/chase/PycharmProjects/MMFeDServer/job/101/1_172.16.1.190', '.py'))
+    # print(get_fedloss('/home/chase/PycharmProjects/MMFedClient/job/Public-FedAvg/0_10.10.6.121/train.log'))
+    get_hardware(1)
